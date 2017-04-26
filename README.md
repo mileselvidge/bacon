@@ -1,11 +1,11 @@
 # Bacon
-Bacon is a neural network written purely in Swift and packaged as a Cocoa framework. It uses Apple's [Accelerate](https://developer.apple.com/reference/accelerate) framework to make high speed mathematical computations. One of our overarching goals is to make Bacon capable of being trained in a production environment. This requires the framework to be as efficient as possible.
+Bacon is a neural network written purely in Swift and packaged as a Cocoa framework. It uses Apple's [Accelerate](https://developer.apple.com/reference/accelerate) framework to perform high speed mathematical computations. One of our overarching goals is to make Bacon capable of being trained in a production environment. This requires the framework to be as efficient as possible.
 
 ## The Name
 Curious where the name Bacon came from? This repository contains a Blue Cocoa Neural Network. The acronym for Blue Cocoa Neural Network is BCNN. Try pronouncing BCNN phonetically. What does it sound like? Bacon 🥓
 
 ## Functionality
-- Neural network with one hidden layer and one activation function. Accepts input and output as `Double`.
+- Neural network with one hidden layer and one activation function. Accepts input and output as `[[Double]]`.
 - Written in pure Swift and with the Accelerate framework for high efficiency.
 
 ## Usage
