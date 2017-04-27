@@ -7,13 +7,13 @@ Curious where the name Bacon came from? This repository contains a Blue Cocoa Ne
 ## Functionality
 - Neural network with one hidden layer and one activation function. Accepts input and output as `[[Double]]`.
 - Written in pure Swift and with the Accelerate framework for high efficiency.
+- Save hidden layer matrix and weights matrix for later use.
+- Cost value is accessible, which allows you to watch for convergence and ideal iteration number.
 
 ## Roadmap
 - More activation functions
 - N hidden layers
-- Save weights for testing
 - Various kinds of layers built modularly
-- Convolutional neural network
 - Metal exploration
 
 ## Installation
