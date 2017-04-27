@@ -17,9 +17,9 @@ Curious where the name Bacon came from? This repository contains a Blue Cocoa Ne
 - Metal exploration
 
 ## Installation
-Copy the BaconFramework files (including the .xcodeproj) to your project directory. Drag the .xcodeproj into your project. Ensure that BaconFramework.framework is added as an Embedded Binary and Linked Framework. Build the framework. Voilà.
+Copy the `BaconFramework` files (including the `.xcodeproj`) to your project directory. Drag the `.xcodeproj` into your project. Ensure that `BaconFramework.framework` is added as an Embedded Binary and Linked Framework. Build the framework. Voilà.
 
-You can use the BaconSampleProject to see an example of Bacon in action. Go to `ViewController.swift` to see the configuration and training call. Run the project and watch the neural network get trained.
+You can use the `BaconSampleProject.xcodeproj` to see an example of Bacon in action. Go to `ViewController.swift` to view the configuration and training call. Run the project and watch the neural network get trained.
 
 ## Usage
 ### Creating a simple input and output matrix
