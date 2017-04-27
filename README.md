@@ -8,6 +8,14 @@ Curious where the name Bacon came from? This repository contains a Blue Cocoa Ne
 - Neural network with one hidden layer and one activation function. Accepts input and output as `[[Double]]`.
 - Written in pure Swift and with the Accelerate framework for high efficiency.
 
+## Roadmap
+- More activation functions
+- N hidden layers
+- Save weights for testing
+- Various kinds of layers built modularly
+- Convolutional neural network
+- Metal exploration
+
 ## Installation
 Copy the BaconFramework files (including the .xcodeproj) to your project directory. Drag the .xcodeproj into your project. Ensure that BaconFramework.framework is added as an Embedded Binary and Linked Framework. Build the framework. Voilà.
 
@@ -43,14 +51,6 @@ After initializing the `NeuralNetwork` class, call `train(input, output)`. This 
 ```swift
 let structure: (hiddenLayer: [Double], weights: [Double])? = neuralNetwork.train(input, output)
 ```
-
-## Roadmap
-- More activation functions
-- N hidden layers
-- Save weights for testing
-- Various kinds of layers built modularly
-- Convolutional neural network
-- Metal exploration
 
 ## License
 Bacon is available under the Apache License 2.0. See the LICENSE file for more information.
